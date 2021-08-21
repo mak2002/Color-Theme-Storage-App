@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './App.css';
+import { makeStyles } from '@material-ui/core/styles';
 import AddColor from './components/AddColor'
 import ShowColor from './components/ShowColors'
 

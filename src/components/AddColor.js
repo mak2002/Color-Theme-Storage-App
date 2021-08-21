@@ -6,8 +6,8 @@ import TextField from '@material-ui/core/TextField';
 const useStyles = makeStyles({
     root: {
         display: 'flex',
-        justifyContent: 'center',
-        marginTop: '30px'
+        justifyContent: 'space-evenly',
+        paddingTop: '30px'
     },
     form: {
         display: 'flex',
@@ -30,9 +30,12 @@ export default function AddColor({ addColor }) {
     const classes = useStyles()
     return (
         <div className={classes.root}>
+
+            {<h1>Color Storage App</h1>}
+
             <form action="" className={classes.form} onSubmit={handleSubmit}>
 
-            <TextField id="standard-basic" label="Standard" onChange={(e) => {setcolor(e.target.value)}}/>
+            <TextField id="standard-basic" label="Enter Color" onChange={(e) => {setcolor(e.target.value)}}/>
 
                 <Button type="submit" variant="contained" color="primary">
                     Add Color

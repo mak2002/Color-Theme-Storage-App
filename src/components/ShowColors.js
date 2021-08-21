@@ -5,8 +5,11 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
     main: {
         display: 'flex',
+        // justifyContent: 'center',
+        // justifyContent:'space-around',
         flexWrap: 'wrap',
         width: '100%',
+        marginTop: '50px',
     }
 })
 
