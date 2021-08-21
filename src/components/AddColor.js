@@ -17,23 +17,24 @@ const useStyles = makeStyles({
 })
 
 
-export default function AddThemes() {
+export default function AddColor({ addColor }) {
 
     const[color, setcolor] = useState()
 
-    const handleClick = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(color)
+        addColor(color);
+        // console.log(color)
     }    
 
     const classes = useStyles()
     return (
         <div className={classes.root}>
-            <form action="" className={classes.form}>
+            <form action="" className={classes.form} onSubmit={handleSubmit}>
 
             <TextField id="standard-basic" label="Standard" onChange={(e) => {setcolor(e.target.value)}}/>
 
-                <Button type="submit" variant="contained" color="primary" onClick={handleClick}>
+                <Button type="submit" variant="contained" color="primary">
                     Add Color
                 </Button>
             </form>
