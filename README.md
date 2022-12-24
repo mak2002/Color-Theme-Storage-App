@@ -1,3 +1,5 @@
 Color theme storage app
 
-![ScreenShot](./images/Screenshot_20210930_144016.png)
+![ScreenShot](./images/1.png)
+![ScreenShot](./images/2.png)
+![ScreenShot](./images/3.png)
