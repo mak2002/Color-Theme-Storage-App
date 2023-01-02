@@ -1,4 +1,4 @@
-Color theme storage app
+:pencil2: Color theme storage app 
 <br>
 ![ScreenShot](./images/1.png)
 <br>
